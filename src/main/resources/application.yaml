@@ -1,0 +1,13 @@
+spring:
+  graphql:
+    schema:
+      printer:
+        enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/graph?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+    username: root
+    password: skanushka
+    driver-class-name: com.mysql.jdbc.Driver
